@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Política de Privacidad | MigraUSA",
@@ -8,18 +9,21 @@ export const metadata: Metadata = {
 const sections = [
   {
     id: 1,
-    title: "Introducción y Responsable del Tratamiento",
+    title: "Introducción",
     content: (
       <>
         <p>
-          Esta Política de Privacidad explica cómo MigraUSA LLC (en adelante,
-          &quot;MigraUSA&quot;, &quot;la App&quot;, &quot;nosotros&quot; o &quot;nuestro&quot;) recopila, usa,
-          almacena y protege tu información cuando usas la aplicación móvil
-          MigraUSA Case Tracker y todas sus funcionalidades.
+          Esta Política de Privacidad explica cómo AMERICAN SOLUTIONS CENTER
+          LLC (en adelante, &quot;MigraUSA&quot;, &quot;la App&quot;,
+          &quot;nosotros&quot; o &quot;nuestro&quot;) recopila, usa, almacena y
+          protege tu información
+          cuando usas la aplicación móvil MigraUSA Case Tracker y todas sus
+          funcionalidades.
         </p>
         <p>
           Al usar la App, aceptas las prácticas descritas en esta Política de
-          Privacidad y en nuestros Términos y Condiciones.
+          Privacidad y en nuestros Términos y Condiciones. Si no estás de acuerdo con
+          esta política, por favor no uses la App.
         </p>
       </>
     ),
@@ -32,8 +36,10 @@ const sections = [
         <p>
           Esta Política de Privacidad aplica al uso de la aplicación móvil
           MigraUSA Case Tracker y a todos los servicios asociados proporcionados
-          por MigraUSA LLC. Esto incluye, de manera enunciativa mas no
-          limitativa, el procesamiento de datos a través de las siguientes
+          por AMERICAN SOLUTIONS CENTER LLC. La App está diseñada y dirigida principalmente a
+          usuarios en los Estados Unidos. Si accedes a la App desde otro país,
+          esta política también te aplica. Esto incluye, de manera enunciativa
+          mas no limitativa, el procesamiento de datos a través de las siguientes
           funciones principales:
         </p>
         <ul>
@@ -56,8 +62,7 @@ const sections = [
         <p>
           Esta política no se aplica a sitios web, aplicaciones o portales
           gubernamentales de terceros (como los sitios oficiales de USCIS o el
-          Departamento de Justicia) a los que tu dispositivo pueda conectarse
-          para obtener la información pública de los casos.
+          Departamento de Justicia).
         </p>
       </>
     ),
@@ -77,11 +82,12 @@ const sections = [
           Internet (COPPA, por sus siglas en inglés), MigraUSA no recopila de
           forma intencional información de niños menores de 13 años. Si
           descubrimos que hemos recopilado inadvertidamente datos de un menor de
-          13 años, tomaremos medidas razonables para eliminar dicha información
-          de nuestros servidores de forma inmediata. Si eres padre o tutor y
-          crees que tu hijo nos ha proporcionado información a través de la App,
-          contáctanos en{" "}
-          <a href="mailto:help@migrausa.com">help@migrausa.com</a>.
+          13 años (o de un menor según la legislación aplicable en tu
+          jurisdicción), tomaremos medidas razonables para eliminar dicha
+          información de nuestros servidores de forma inmediata. Si eres padre o
+          tutor y crees que tu hijo nos ha proporcionado información a través de
+          la App, contáctanos en{" "}
+          <a href="mailto:help@americansolutionscenter.com">help@americansolutionscenter.com</a>.
         </p>
       </>
     ),
@@ -93,7 +99,9 @@ const sections = [
       <>
         <h3>4.1 Datos proporcionados directamente por ti</h3>
         <ul>
-          <li>Números de recibo USCIS que agregas para el seguimiento de casos.</li>
+          <li>
+            Números de recibo USCIS que agregas para el seguimiento de casos.
+          </li>
           <li>
             Números EOIR / A-Number que agregas para el seguimiento de casos de
             corte.
@@ -147,15 +155,6 @@ const sections = [
           <li>Identificador del plan o producto de suscripción.</li>
           <li>Estado de la suscripción y fecha de expiración.</li>
         </ul>
-
-        <h3>4.5 Datos que NO recopilamos</h3>
-        <p>
-          MigraUSA no recopila tu nombre real, número de teléfono, dirección
-          postal ni dirección de correo electrónico como requisito para usar la
-          App. No es necesario crear una cuenta de usuario para utilizar la App.
-          El correo electrónico solo se recopila si tú decides proporcionarlo
-          voluntariamente al reportar un problema.
-        </p>
       </>
     ),
   },
@@ -167,13 +166,8 @@ const sections = [
         <p>Recopilamos información de las siguientes maneras:</p>
         <ul>
           <li>
-            Directamente desde lo que ingresas en la App (casos y reportes de problemas).
-          </li>
-          <li>
-            Desde consultas que tu dispositivo realiza directamente a los
-            portales públicos oficiales de USCIS y EOIR. MigraUSA no consulta
-            estos portales desde sus servidores; la consulta se ejecuta desde tu
-            dispositivo.
+            Directamente desde lo que ingresas en la App (casos y reportes de
+            problemas).
           </li>
           <li>
             Desde nuestros proveedores de infraestructura necesarios para operar
@@ -194,25 +188,24 @@ const sections = [
       <>
         <p>Usamos la información recopilada para:</p>
         <ul>
-          <li>Guardar y sincronizar tus casos entre tu dispositivo y nuestro
-            backend.</li>
           <li>
-         Enviar alertas y notificaciones importantes
+            Guardar y sincronizar tus casos entre tu dispositivo y nuestro
+            backend.
           </li>
+          <li>Enviar alertas y notificaciones importantes.</li>
           <li>
             Generar estadísticas agrupadas y análisis de tendencias de casos
-            para usuarios premium, utilizando datos anonimizados y agregados de
-            nuestra base de datos.
+            para usuarios premium.
           </li>
           <li>Gestionar y validar el acceso a funciones premium.</li>
           <li>
-          Medir el uso funcional básico del producto para mejorar la
+            Medir el uso funcional básico del producto para mejorar la
             experiencia del servicio.
           </li>
           <li>
             Responder a solicitudes de soporte y reportes de problemas.
           </li>
-          <li>Detectar y prevenir actividades fraudulentas</li>
+          <li>Detectar y prevenir actividades fraudulentas.</li>
           <li>Cumplir con obligaciones legales aplicables.</li>
         </ul>
       </>
@@ -223,22 +216,85 @@ const sections = [
     title: "Base Legal del Tratamiento",
     content: (
       <>
-        <p>Tratamos tus datos con base en:</p>
+        <p>Tratamos tus datos personales con base en los siguientes fundamentos:</p>
         <ul>
           <li>
-            La ejecución del servicio que nos solicitas al aceptar nuestros
-            Términos y Condiciones.
+            <strong>Ejecución del contrato:</strong> El tratamiento es necesario
+            para la prestación del servicio que nos solicitas al aceptar
+            nuestros Términos y Condiciones. Esto incluye el almacenamiento y
+            sincronización de tus casos, la generación de estadísticas y el
+            funcionamiento de Tracker AI.
           </li>
           <li>
-            Nuestro interés legítimo en la seguridad, continuidad operativa y
-            mejora del servicio.
+            <strong>Interés legítimo:</strong> Tenemos un interés legítimo en la
+            seguridad de la App, la continuidad operativa, la prevención de
+            fraude y la mejora del servicio. Estos intereses no prevalecen sobre
+            tus derechos y libertades fundamentales.
           </li>
-          <li>El cumplimiento de obligaciones legales aplicables.</li>
           <li>
-            Tu consentimiento explícito proporcionado.
+            <strong>Cumplimiento de obligaciones legales:</strong> Ciertos
+            tratamientos son necesarios para cumplir con obligaciones legales
+            aplicables, como la conservación de registros requerida por ley o la
+            respuesta a solicitudes legítimas de autoridades competentes.
+          </li>
+          <li>
+            <strong>Consentimiento:</strong> En los casos en que se requiera,
+            obtenemos tu consentimiento explícito antes de procesar tus datos,
+            por ejemplo al enviar reportes de problemas con tu correo
+            electrónico. Puedes retirar tu consentimiento en cualquier momento
+            sin que esto afecte la licitud del tratamiento realizado
+            previamente.
           </li>
         </ul>
+        <p>
+          Estas bases legales son aplicables bajo la legislación de los Estados
+          Unidos, y también son compatibles con los requisitos del GDPR (UE/UK)
+          y demás legislación internacional de protección de datos que pueda
+          aplicar según tu lugar de residencia.
+        </p>
       </>
+    ),
+  },
+  {
+    id: 8,
+    title: "Señales de Opt-Out y Global Privacy Control (GPC)",
+    content: (
+      <>
+        <p>
+          MigraUSA respeta las señales de preferencia de exclusión (opt-out
+          preference signals), incluyendo el Global Privacy Control (GPC). Si tu
+          navegador o dispositivo envía una señal GPC, la trataremos como una
+          solicitud válida de exclusión de la venta o el intercambio de
+          información personal conforme a las leyes aplicables, incluyendo la
+          CCPA/CPRA de California, la CPA de Colorado, la CTDPA de Connecticut,
+          la TDPSA de Texas y demás leyes estatales que reconozcan dichas
+          señales.
+        </p>
+        <p>
+          Dado que MigraUSA no vende, comparte ni intercambia información
+          personal con terceros para publicidad dirigida, el tratamiento de
+          señales GPC se cumple de manera predeterminada.
+        </p>
+        <p>
+          MigraUSA no responde a señales de &quot;Do Not Track&quot; (DNT), ya
+          que no existe un estándar tecnológico uniforme para su implementación.
+          Sin embargo, sí respetamos GPC conforme a las leyes que lo exigen.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 9,
+    title: "Toma de Decisiones Automatizada",
+    content: (
+      <p>
+        MigraUSA no toma decisiones basadas únicamente en el tratamiento
+        automatizado que produzcan efectos jurídicos sobre ti o te afecten
+        significativamente. Tracker AI genera respuestas informativas basadas en
+        los datos que tú proporcionas voluntariamente en el chat. Estas
+        respuestas son meramente orientativas y no constituyen decisiones
+        automatizadas con efectos legales.
+      </p>
     ),
   },
   {
@@ -353,31 +409,77 @@ const sections = [
     id: 12,
     title: "Transferencias de Datos",
     content: (
-      <p>
-        Nuestros proveedores de servicios procesan información en los Estados
-        Unidos. Dado que MigraUSA está dirigida exclusivamente a usuarios en los
-        Estados Unidos, el uso de la App implica que tus datos son procesados y
-        almacenados en territorio estadounidense, sujeto a las leyes federales y
-        estatales aplicables.
-      </p>
+      <>
+        <p>
+          Nuestros proveedores de servicios procesan información en los Estados
+          Unidos. La App está diseñada y dirigida principalmente a usuarios en
+          los Estados Unidos, y el uso de la App implica que tus datos son
+          procesados y almacenados en territorio estadounidense, sujeto a las
+          leyes federales y estatales aplicables.
+        </p>
+        <p>
+          Si accedes a la App desde fuera de los Estados Unidos, al utilizar
+          nuestros servicios reconoces y aceptas que tus datos personales serán
+          transferidos, procesados y almacenados en los Estados Unidos, donde
+          las leyes de protección de datos pueden diferir de las de tu país de
+          residencia. En tales casos, aplicamos las salvaguardas contractuales
+          apropiadas con nuestros proveedores para proteger tu información. Si
+          necesitas información sobre los mecanismos de transferencia
+          aplicables, puedes escribirnos a{" "}
+          <a href="mailto:help@americansolutionscenter.com">help@americansolutionscenter.com</a>.
+        </p>
+      </>
     ),
   },
   {
     id: 13,
     title: "Seguridad",
     content: (
-      <p>
-        Aplicamos medidas técnicas y organizativas razonables para proteger tu
-        información. Toda la información transmitida entre la App y nuestros
-        servidores está cifrada en tránsito mediante SSL/TLS, y los datos
-        almacenados en nuestras bases de datos están cifrados en reposo. Sin
-        embargo, ningún sistema de transmisión o almacenamiento electrónico es
-        100% seguro, y no podemos garantizar la seguridad absoluta de tus datos.
-      </p>
+      <>
+        <p>
+          Aplicamos medidas técnicas y organizativas razonables para proteger tu
+          información. Estas medidas incluyen:
+        </p>
+        <ul>
+          <li>
+            Cifrado en tránsito mediante SSL/TLS para toda la información
+            transmitida entre la App y nuestros servidores.
+          </li>
+          <li>
+            Cifrado en reposo proporcionado por la infraestructura de nuestros proveedores de base de datos para los datos almacenados en nuestros servidores.
+          </li>
+          <li>
+            Controles de acceso para limitar el acceso a los datos personales
+            únicamente al personal autorizado.
+          </li>
+          <li>Revisiones periódicas de seguridad de nuestra infraestructura.</li>
+        </ul>
+        <p>
+          Sin embargo, ningún sistema de transmisión o almacenamiento
+          electrónico es 100% seguro, y no podemos garantizar la seguridad
+          absoluta de tus datos.
+        </p>
+      </>
     ),
   },
   {
     id: 14,
+    title: "Notificación de Brechas de Seguridad",
+    content: (
+      <p>
+        En caso de una brecha de seguridad que afecte tus datos personales y que
+        represente un riesgo para tus derechos y libertades, AMERICAN
+        SOLUTIONS CENTER LLC notificará a los usuarios afectados y, cuando corresponda, a las
+        autoridades competentes, de acuerdo con los plazos y procedimientos
+        exigidos por la legislación aplicable en tu jurisdicción. La
+        notificación incluirá, como mínimo, la naturaleza de la brecha, las
+        categorías de datos afectados, las posibles consecuencias y las medidas
+        adoptadas o propuestas para remediar la situación.
+      </p>
+    ),
+  },
+  {
+    id: 15,
     title: "Retención y Eliminación de Datos",
     content: (
       <>
@@ -434,7 +536,7 @@ const sections = [
             eliminemos de inmediato todos los registros, casos e identificadores
             técnicos asociados a tu dispositivo en nuestra base de datos,
             envíanos una solicitud a{" "}
-            <a href="mailto:help@migrausa.com">help@migrausa.com</a>.
+            <a href="mailto:help@americansolutionscenter.com">help@americansolutionscenter.com</a>.
             Procesaremos tu solicitud de eliminación total de forma segura y
             definitiva en un plazo máximo de 30 días naturales a partir de la
             recepción de tu mensaje.
@@ -444,55 +546,51 @@ const sections = [
     ),
   },
   {
-    id: 15,
-    title: "Tus Derechos de Privacidad (Leyes Estatales de EE. UU.)",
+    id: 16,
+    title: "Tus Derechos de Privacidad",
     content: (
       <>
         <p>
           MigraUSA respeta los derechos de privacidad otorgados por las leyes
-          estatales de los Estados Unidos, incluyendo, entre otras, la Ley de
-          Privacidad del Consumidor de California (CCPA/CPRA), la Ley de
-          Privacidad de Colorado (CPA), la Ley de Protección de Datos del
-          Consumidor de Virginia (VCDPA), la Ley de Privacidad de Connecticut
-          (CTDPA) y la Ley de Privacidad y Seguridad de Datos de Texas (TDPSA).
+          aplicables según tu lugar de residencia.
         </p>
         <p>
-          Reconocemos que, bajo la definición amplia de &quot;información personal&quot;
-          de ciertas leyes estatales, algunos de los identificadores técnicos y
-          datos que recopilamos (como push tokens y números de recibo vinculados a
-          un dispositivo) podrían considerarse
-          información personal en la medida en que sean vinculables a un
-          dispositivo o consumidor específico.
-        </p>
-        <p>Dependiendo de tu estado de residencia, puedes tener derecho a:</p>
-        <ul>
-          <li>Conocer y acceder a los datos que hemos recopilado sobre ti.</li>
-          <li>Solicitar la corrección de información inexacta.</li>
-          <li>Solicitar la eliminación (supresión) de tus datos.</li>
-          <li>
-            Optar por no participar en la venta o el intercambio de tu
-            información personal (derecho que ya cumplimos, dado que MigraUSA no
-            vende ni comparte información personal con terceros para publicidad).
-          </li>
-          <li>
-            No ser discriminado por ejercer tus derechos de privacidad.
-          </li>
-        </ul>
-        <p>
-          Para ejercer cualquiera de estos derechos, puedes contactarnos en{" "}
-          <a href="mailto:help@migrausa.com">help@migrausa.com</a>.
-          Responderemos a solicitudes verificables dentro de los plazos exigidos
-          por la ley aplicable (generalmente 45 días bajo CCPA/CPRA).
+          <strong>Usuarios en los Estados Unidos:</strong> Reconocemos los
+          derechos otorgados por las leyes estatales de privacidad, incluyendo
+          la CCPA/CPRA, la CPA de Colorado, la VCDPA de Virginia, la CTDPA de
+          Connecticut, la TDPSA de Texas y demás leyes estatales aplicables.
+          Dependiendo de tu estado de residencia, puedes tener derecho a:
+          conocer y acceder a los datos que hemos recopilado sobre ti; solicitar
+          la corrección de información inexacta; solicitar la eliminación de tus
+          datos; optar por no participar en la venta o el intercambio de tu
+          información personal; y no ser discriminado por
+          ejercer tus derechos de privacidad. Responderemos a solicitudes
+          verificables dentro de los plazos exigidos por la ley aplicable
+          (generalmente 45 días bajo CCPA/CPRA).
         </p>
         <p>
-          MigraUSA no recopila categorías sensibles de información personal
-          según la definición de estas leyes.
+          <strong>Usuarios fuera de los Estados Unidos:</strong> Si resides
+          fuera de los Estados Unidos, puedes tener derechos adicionales bajo la
+          legislación de tu país de residencia, como derechos de acceso,
+          rectificación, supresión, portabilidad, oposición al tratamiento y
+          retiro del consentimiento. AMERICAN SOLUTIONS CENTER LLC se
+          compromete a respetar estos
+          derechos en la medida aplicable conforme a la legislación vigente en
+          tu jurisdicción. Si resides en la Unión Europea o el Reino Unido,
+          también tienes derecho a presentar una reclamación ante la autoridad
+          de supervisión de protección de datos de tu país.
+        </p>
+        <p>
+          Para ejercer cualquiera de estos derechos, envía tu solicitud a{" "}
+          <a href="mailto:help@americansolutionscenter.com">help@americansolutionscenter.com</a> indicando el
+          derecho que deseas ejercer. Responderemos dentro de los plazos legales
+          aplicables según tu jurisdicción.
         </p>
       </>
     ),
   },
   {
-    id: 16,
+    id: 17,
     title: "Enlaces y Políticas de Terceros",
     content: (
       <>
@@ -571,7 +669,7 @@ const sections = [
     ),
   },
   {
-    id: 17,
+    id: 18,
     title: "Cambios a esta Política de Privacidad",
     content: (
       <p>
@@ -586,7 +684,7 @@ const sections = [
     ),
   },
   {
-    id: 18,
+    id: 19,
     title: "Contacto",
     content: (
       <>
@@ -596,10 +694,10 @@ const sections = [
           contáctanos en:
         </p>
         <p>
-          MigraUSA LLC
+          AMERICAN SOLUTIONS CENTER LLC
           <br />
           Correo electrónico:{" "}
-          <a href="mailto:help@migrausa.com">help@migrausa.com</a>
+          <a href="mailto:help@americansolutionscenter.com">help@americansolutionscenter.com</a>
         </p>
       </>
     ),
@@ -612,6 +710,14 @@ export default function PoliticaDePrivacidad() {
       <main className="mx-auto max-w-3xl px-6 py-16 sm:px-10">
         {/* Header */}
         <header className="mb-12">
+          <div className="mb-4 flex justify-end">
+            <Link
+              href="/privacy-policy"
+              className="text-sm text-zinc-600 underline underline-offset-2 hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-200"
+            >
+              Read in English
+            </Link>
+          </div>
           <p className="mb-2 text-sm font-medium uppercase tracking-widest text-zinc-400 dark:text-zinc-500">
             MigraUSA
           </p>
@@ -619,7 +725,7 @@ export default function PoliticaDePrivacidad() {
             Política de Privacidad
           </h1>
           <p className="mt-3 text-sm text-zinc-500 dark:text-zinc-400">
-            Última actualización: 1 de marzo de 2026
+            Última actualización: 4 de marzo de 2026
           </p>
         </header>
 
@@ -634,6 +740,26 @@ export default function PoliticaDePrivacidad() {
             </section>
           ))}
         </div>
+
+        <footer className="mt-14 border-t border-zinc-200 pt-8 text-sm text-zinc-600 dark:border-zinc-800 dark:text-zinc-400">
+          <p className="mb-3 font-medium text-zinc-700 dark:text-zinc-300">
+            Enlaces requeridos
+          </p>
+          <div className="flex flex-wrap gap-4">
+            <Link href="/politica-de-privacidad" className="underline underline-offset-2">
+              Política de Privacidad
+            </Link>
+            <Link href="/terminos-y-condiciones" className="underline underline-offset-2">
+              Términos y Condiciones
+            </Link>
+            <Link href="/privacy-policy" className="underline underline-offset-2">
+              Privacy Policy
+            </Link>
+            <Link href="/terms-and-conditions" className="underline underline-offset-2">
+              Terms and Conditions
+            </Link>
+          </div>
+        </footer>
       </main>
 
       <style>{`
