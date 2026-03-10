@@ -54,11 +54,12 @@ export default function UpdatePage() {
             <ul className="list-disc space-y-1 pl-5 text-zinc-700 dark:text-zinc-300">
               <li>
                 <strong>Case Analysis</strong> – Information and analysis on
-                your case progress.
+                your case progress (available for I-765, I-485, and I-130
+                cases).
               </li>
               <li>
                 <strong>Case Statistics</strong> – Data and trends based on
-                similar cases.
+                similar cases (available for I-765, I-485, and I-130 cases).
               </li>
               <li>
                 <strong>Tracker AI</strong> – An AI-powered assistant to help

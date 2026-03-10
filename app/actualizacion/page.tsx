@@ -54,11 +54,13 @@ export default function ActualizacionPage() {
             <ul className="list-disc space-y-1 pl-5 text-zinc-700 dark:text-zinc-300">
               <li>
                 <strong>Análisis del caso</strong> – Información y análisis
-                sobre el progreso de tu caso.
+                sobre el progreso de tu caso (disponible para casos I-765,
+                I-485 e I-130).
               </li>
               <li>
                 <strong>Estadísticas del caso</strong> – Datos y tendencias
-                basadas en casos similares.
+                basadas en casos similares (disponible para casos I-765, I-485
+                e I-130).
               </li>
               <li>
                 <strong>Tracker AI</strong> – Un asistente con inteligencia
