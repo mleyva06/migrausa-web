@@ -38,6 +38,18 @@ export default function Home() {
           >
             Terms and Conditions
           </Link>
+          <Link
+            href="/actualizacion"
+            className="block rounded-lg border border-zinc-200 bg-white px-5 py-4 text-zinc-800 hover:bg-zinc-100 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-200 dark:hover:bg-zinc-800"
+          >
+            Actualización importante
+          </Link>
+          <Link
+            href="/update"
+            className="block rounded-lg border border-zinc-200 bg-white px-5 py-4 text-zinc-800 hover:bg-zinc-100 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-200 dark:hover:bg-zinc-800"
+          >
+            Important Update
+          </Link>
         </section>
 
         <footer className="mt-auto pt-12 text-sm text-zinc-600 dark:text-zinc-400">
