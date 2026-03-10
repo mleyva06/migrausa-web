@@ -64,10 +64,6 @@ export default function UpdatePage() {
                 <strong>Tracker AI</strong> – An AI-powered assistant to help
                 you understand your case status and possible changes.
               </li>
-              <li>
-                <strong>Dark Mode</strong> – A dark interface for a more
-                comfortable experience when using the app.
-              </li>
             </ul>
           </article>
 

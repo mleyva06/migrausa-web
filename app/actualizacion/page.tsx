@@ -65,10 +65,6 @@ export default function ActualizacionPage() {
                 artificial para ayudarte a entender el estado de tu caso y
                 posibles cambios.
               </li>
-              <li>
-                <strong>Modo oscuro</strong> – Una interfaz oscura para una
-                experiencia más cómoda al usar la aplicación.
-              </li>
             </ul>
           </article>
 
